@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial scale=1.0">
+        <title>Add Expense</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header>
+        <h1>ADD YOUR EXPENSES</h1>
+    </header>
+    <p>Add the money that you have used </p>
+    
+        <ul>
+            <li><a href="edit_expense.html">Edit Expenses</a></li>
+        </ul> 
+    <section>
+    <form action="/add_expense" method="post">
+        <div class="container">
+            <label for="Date">Date:</label>
+            <input type="date" id="Date" name="Date"><br>
+        </div>
+        <div class="container">
+            <label for="amount">Amount</label>
+            <input type="number" id="amount" name="Amount"><br>
+        </div>
+        <div class="container">
+            <label for="description">Description</label>
+            <input type="text" id="description" name=" Description"><br>
+        </div>
+    
+        <button type="submit">Add </button>
+    </form>
+    </section>
+
+
+</body>
+    
+</html>
